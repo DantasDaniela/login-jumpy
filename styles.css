@@ -1,0 +1,129 @@
+    
+    /*Importação de fontes*/
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    
+
+    #section-logos{
+        display: grid;
+        
+    }
+
+    #logo-DNC{
+        margin-left: 80px;
+    }
+
+    #logo-jumpy{
+        
+        margin-left: 780px;
+        
+        
+    }
+
+    h2{
+        color: #FFFFFF;
+        font-size: xx-large;
+        text-align: center;
+
+    }
+
+    :root{
+        --azul-dnc: #0C70F2;
+        --preto-dnc: #303030;
+        --cinza-hover: #c9c9c9;
+
+        --fonte-padrao: 'inter';
+    }
+
+    body {
+        background:var(--preto-dnc)
+    }
+
+    section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+    }
+
+    /*Formulário*/
+
+    form {
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 30px;
+        font-weight: 600;
+        width: 600px;
+
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    form input {
+        border-radius: 10px;
+        height: 30px;
+        border: 0px;
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    form label {
+        margin: 10px 0px 10px 0px
+    }
+    
+
+    input[type="submit"]{
+        width: 600px;
+        height: 50px;
+        justify-content: center;
+        margin-top: 100px;
+        background: rgba(12, 112, 242, 0.9);;
+        color: #FFFFFF;
+        box-shadow:0px 6px 4px rgba(12, 112, 242, 0.25);
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+
+    @media only screen and (max-width: 600px) 
+    {
+        /*MENU*/
+        #principal {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+
+        #menu{
+            flex-direction: column;
+            width: 100%;
+            margin: 0px;
+        }
+
+        #menu a {
+            height: 50px;
+            align-items: center;
+            display: flex;
+        }
+
+        #principal button {
+            width: 100%;
+            margin: 0px;
+        }
+
+        footer .linha1 {
+            flex-direction: column;
+        }
+
+    }
+        
+   
